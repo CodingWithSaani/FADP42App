@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".FBWorking.FirestoreWorkingActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addDataToFBBtn"
+        android:text="Add Data to FB"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addDataToFBWithKeyBtn"
+        android:text="Add Data to FB With Key"
+        android:layout_below="@id/addDataToFBBtn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/getSingleDocumentFromFBBtn"
+        android:text="Get Single Data From FB"
+        android:layout_below="@id/addDataToFBWithKeyBtn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/getCompleteCollectionBtn"
+        android:text="Get Complete Collection"
+        android:layout_below="@id/getSingleDocumentFromFBBtn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fbDataTV"
+        android:layout_below="@id/getCompleteCollectionBtn"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Data"/>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/progressBar"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>

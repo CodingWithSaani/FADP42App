@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topLabel"
+        android:text="Math Factory"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstValueTV"
+        android:layout_below="@id/topLabel"
+        android:text="First Value:"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstValueET"
+        android:layout_below="@id/firstValueTV"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondValueTV"
+        android:layout_below="@id/firstValueET"
+        android:text="Second Value:"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondValueET"
+        android:layout_below="@id/secondValueTV"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/resultBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secondValueET"
+        android:layout_centerInParent="true"
+        android:text="Calculate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultTV"
+        android:text="Result:"
+        android:textSize="20sp"
+        android:layout_below="@id/resultBtn"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+    android:id="@+id/startActBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/resultTV"
+    android:layout_centerInParent="true"
+    android:text="Start Activity" />
+
+    <Button
+        android:id="@+id/startAdapterActivityBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/startActBtn"
+        android:layout_centerInParent="true"
+        android:text="Start Adapter Activity" />
+
+    <Button
+        android:id="@+id/startCustomdapterActivityBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/startAdapterActivityBtn"
+        android:layout_centerInParent="true"
+        android:text="Start Custom Adapter Activity" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FADP42App</string>
+    <string name="app_uni_title">University of Central Punjab</string>
+    <string name="app_register_btn">Click to Register</string>
+    <string name="sms_screen_top_label_tv">SMS Screen</string>
+    <string name="sms_body_tv">SMS Body:</string>
+    <string name="sms_receiver_phone_tv">SMS Receiver Phone:</string>
+    <string name="send_btn">Send SMS</string>
+</resources>

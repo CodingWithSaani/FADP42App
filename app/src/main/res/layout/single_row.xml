@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_bg">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/sr_iv"
+        android:src="@drawable/ba"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sr_title_tv"
+        android:layout_toRightOf="@id/sr_iv"
+        android:textSize="20sp"
+        android:text="Babar Azam"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sr_des_tv"
+        android:layout_toRightOf="@id/sr_iv"
+        android:layout_below="@id/sr_title_tv"
+        android:textSize="17sp"
+        android:text="Babar Azam Description"
+        android:layout_marginTop="5dp"
+        />
+
+</RelativeLayout>
